@@ -1,0 +1,42 @@
+<?xml version="1.0"?>
+<lavirinto>
+		<levelname>5. level</levelname>
+		<description>Green cube
+		</description>
+		<time>80</time>
+		<backgroundimage>res/levelpacks/campaign/5.jpg</backgroundimage>
+		<conectedfieldscolor>
+			<red>236</red>
+			<green>222</green>
+			<blue>0</blue>
+		</conectedfieldscolor>
+		<disconectedfieldscolor>
+			<red>130</red>
+			<green>130</green>
+			<blue>130</blue>
+		</disconectedfieldscolor>				
+		<width>12</width>
+		<height>9</height>
+		<boarddata>
+			000 000 010 000
+			010 011 111 111
+			010 010 000 000
+			
+			010 010 000 000
+			010 110 111 111
+			010 000 010 010
+			
+			000 000 010 010
+			111 111 011 111
+			010 000 010 000
+		</boarddata>
+		<player>
+			<x_cord>3</x_cord>
+			<y_cord>0</y_cord>
+		</player>	
+		<monster>
+			<x_cord>3</x_cord>
+			<y_cord>2</y_cord>
+			<type>dummyCw</type>
+		</monster>	
+</lavirinto>

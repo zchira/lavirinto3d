@@ -1,0 +1,19 @@
+<?xml version="1.0"?>
+<gamepack>
+	<packname>Geometrics</packname>
+	<description>Level pack for Beginers.</description>	
+	<startstory>Oh, no! The shapes are disarranged. 
+				Your misson is to bring harmony back 
+				in this world of shapes. 
+	</startstory>
+	<endstory>CONGRATULATIONS!
+		Now you are ready to play the campaign level pack.
+	</endstory>					
+	<levelfile>/res/levelpacks/geometrics/level1.xml</levelfile>
+	<levelfile>/res/levelpacks/geometrics/level2.xml</levelfile>
+	<levelfile>/res/levelpacks/geometrics/level3.xml</levelfile>
+	<levelfile>/res/levelpacks/geometrics/level4.xml</levelfile>
+	<levelfile>/res/levelpacks/geometrics/level5.xml</levelfile>
+	<levelfile>/res/levelpacks/geometrics/level6.xml</levelfile>	
+	<levelfile>/res/levelpacks/geometrics/level7.xml</levelfile>
+</gamepack>

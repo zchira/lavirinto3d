@@ -1,0 +1,50 @@
+<?xml version="1.0"?>
+<lavirinto>
+		<levelname>4. What now?!</levelname>
+		<description>Original Lavirinto 4th level.
+		Tip: Fast rotation is the chance...
+		</description>
+		<time>145</time>
+		<backgroundimage>res/levelpacks/original/background4.jpg</backgroundimage>
+		<conectedfieldscolor>
+			<red>255</red>
+			<green>00</green>
+			<blue>0</blue>
+		</conectedfieldscolor>
+		<disconectedfieldscolor>
+			<red>150</red>
+			<green>150</green>
+			<blue>150</blue>
+		</disconectedfieldscolor>		
+		<width>12</width>
+		<height>12</height>
+		<boarddata>
+			010 000 010 000
+			110 011 011 110
+			000 010 010 010
+			
+			010 000 000 010
+			010 000 000 010
+			010 000 000 010
+			
+			010 000 000 010
+			010 000 000 010
+			010 000 000 010
+			
+			010 000 000 010
+			011 111 111 111
+			000 000 000 000
+		</boarddata>
+		<player>
+			<x_cord>0</x_cord>
+			<y_cord>0</y_cord>
+		</player>
+		<monster>
+			<x_cord>0</x_cord>
+			<y_cord>1</y_cord>
+		</monster>
+		<monster>
+			<x_cord>3</x_cord>
+			<y_cord>1</y_cord>
+		</monster>
+</lavirinto>

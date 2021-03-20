@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<lavirinto>
+		<levelname>4. level</levelname>
+		<description>Electric sunset
+		</description>
+		<time>70</time>
+		<backgroundimage>res/levelpacks/campaign/4.jpg</backgroundimage>
+		<conectedfieldscolor>
+			<red>0</red>
+			<green>168</green>
+			<blue>255</blue>
+		</conectedfieldscolor>
+		<disconectedfieldscolor>
+			<red>150</red>
+			<green>150</green>
+			<blue>150</blue>
+		</disconectedfieldscolor>				
+		<width>9</width>
+		<height>9</height>
+		<boarddata>
+			010 000 000
+			110 111 111
+			010 000 000
+			
+			010 000 000
+			111 111 110
+			000 010 000
+			
+			010 010 010
+			010 111 011
+			000 010 000
+		</boarddata>
+		<player>
+			<x_cord>1</x_cord>
+			<y_cord>2</y_cord>
+		</player>		
+</lavirinto>

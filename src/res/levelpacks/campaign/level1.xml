@@ -1,0 +1,32 @@
+<?xml version="1.0"?>
+<lavirinto>
+		<levelname>1. level</levelname>
+		<description>Deep sky</description>
+		<time>40</time>
+		<backgroundimage>res/levelpacks/campaign/1.jpg</backgroundimage>
+		<conectedfieldscolor>
+			<red>16</red>
+			<green>232</green>
+			<blue>0</blue>
+		</conectedfieldscolor>
+		<disconectedfieldscolor>
+			<red>138</red>
+			<green>138</green>
+			<blue>138</blue>
+		</disconectedfieldscolor>		
+		<width>6</width>
+		<height>6</height>
+		<boarddata>
+			010 010
+			110 110
+			010 010
+			
+			010 000
+			110 111
+			010 000
+		</boarddata>
+		<player>
+			<x_cord>0</x_cord>
+			<y_cord>0</y_cord>
+		</player>
+</lavirinto>

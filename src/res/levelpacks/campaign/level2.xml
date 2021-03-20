@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<lavirinto>
+		<levelname>2. level</levelname>
+		<description>Mystic water
+		</description>
+		<time>60</time>
+		<backgroundimage>res/levelpacks/campaign/2.jpg</backgroundimage>
+		<conectedfieldscolor>
+			<red>38</red>
+			<green>177</green>
+			<blue>0</blue>
+		</conectedfieldscolor>
+		<disconectedfieldscolor>
+			<red>138</red>
+			<green>138</green>
+			<blue>138</blue>
+		</disconectedfieldscolor>		
+		<width>9</width>
+		<height>6</height>
+		<boarddata>
+			010 000 010
+			011 111 110
+			000 010 000
+			
+			010 000 010
+			010 111 010
+			000 010 000
+		</boarddata>
+		<player>
+			<x_cord>1</x_cord>
+			<y_cord>1</y_cord>
+		</player>
+</lavirinto>

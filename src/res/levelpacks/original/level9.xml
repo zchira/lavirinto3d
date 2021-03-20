@@ -1,0 +1,50 @@
+<?xml version="1.0"?>
+<lavirinto>
+		<levelname>9. Hmm...</levelname>
+		<description>Original Lavirinto 9th level.
+		
+		</description>
+		<time>180</time>
+		<backgroundimage>res/levelpacks/original/background1.jpg</backgroundimage>
+		<conectedfieldscolor>
+			<red>255</red>
+			<green>180</green>
+			<blue>0</blue>
+		</conectedfieldscolor>
+		<disconectedfieldscolor>
+			<red>255</red>
+			<green>255</green>
+			<blue>255</blue>
+		</disconectedfieldscolor>		
+		<width>15</width>
+		<height>18</height>
+		<boarddata>
+			000 000 000 000 000
+			000 000 000 011 011
+			000 000 000 010 010
+			
+			000 000 000 010 000
+			110 111 111 011 110
+			010 000 000 010 010
+			
+			000 000 000 010 010 
+			111 110 011 010 010
+			000 010 010 000 010
+			
+			010 010 010 000 010
+			011 011 110 011 110
+			010 000 010 010 000
+			
+			010 000 000 010 000
+			010 000 011 110 000
+			010 000 010 010 000
+			
+			010 000 000 010 000
+			011 110 000 010 000
+			010 010 000 010 000
+		</boarddata>
+		<player>
+			<x_cord>3</x_cord>
+			<y_cord>5</y_cord>
+		</player>
+</lavirinto>

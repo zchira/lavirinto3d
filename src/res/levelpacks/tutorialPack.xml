@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<gamepack>
+	<packname>TUTORIAL</packname>
+	<description>Tutorial level pack. Learn rules of playing.</description>
+	
+	<startstory>Welcome.
+		This is tutorial of LAVIRINTO.
+		In the next few levels you will learn
+		basic controlls.
+		Remember, I can only show you the door, but
+		you're the one that has to walk through it.		
+	</startstory>
+	<endstory>CONGRATULATIONS!
+		Your training is completed.
+		You are now ready for the real chalenges.
+	</endstory>
+	
+	<levelfile>/res/levelpacks/tutorial/level1.xml</levelfile>
+	<levelfile>/res/levelpacks/tutorial/level2.xml</levelfile>
+	<levelfile>/res/levelpacks/tutorial/level3.xml</levelfile>
+</gamepack>

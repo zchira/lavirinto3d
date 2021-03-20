@@ -1,0 +1,54 @@
+<?xml version="1.0"?>
+<lavirinto>
+		<levelname>6. Big, but easy...</levelname>
+		<description>Original Lavirinto 6th level.
+		
+		</description>
+		<time>180</time>
+		<backgroundimage>res/levelpacks/original/background2.jpg</backgroundimage>
+		<conectedfieldscolor>
+			<red>255</red>
+			<green>205</green>
+			<blue>1</blue>
+		</conectedfieldscolor>
+		<disconectedfieldscolor>
+			<red>150</red>
+			<green>150</green>
+			<blue>150</blue>
+		</disconectedfieldscolor>		
+		<width>24</width>
+		<height>12</height>
+		<boarddata>
+			010 010 010 010 010 010 000 010
+			110 110 110 110 011 111 111 111
+			010 010 010 010 010 000 010 000
+			
+			010 010 010 010 010 000 000 010
+			011 111 110 010 111 110 000 111
+			000 010 010 010 000 010 000 010
+			
+			000 000 000 010 000 010 000 010
+			011 111 111 011 111 111 011 111
+			010 000 010 010 010 000 010 000
+			
+			010 010 010 010 010 000 010 010
+			011 111 110 010 111 110 010 111
+			000 010 010 010 000 010 010 010
+		</boarddata>
+		<player>
+			<x_cord>0</x_cord>
+			<y_cord>2</y_cord>
+		</player>
+		<monster>
+			<x_cord>2</x_cord>
+			<y_cord>1</y_cord>
+		</monster>
+		<monster>
+			<x_cord>6</x_cord>
+			<y_cord>0</y_cord>
+		</monster>
+		<monster>
+			<x_cord>7</x_cord>
+			<y_cord>3</y_cord>
+		</monster>
+</lavirinto>

@@ -1,0 +1,27 @@
+<?xml version="1.0"?>
+<gamepack>
+	<packname>Original levelpack</packname>
+	<description>Original Lavirinto2d level pack.</description>
+	
+	<startstory>Welcome to original level pack.
+		This is a remake of original Lavirinto2d levels.
+		All levels are the same as in the original game.
+		Tip: You can use camera keys and adjust view
+		as in the original Lavirinto.		
+	</startstory>
+	<endstory>CONGRATULATIONS!
+		Original game pack is completed!
+	</endstory>	
+	<levelfile>/res/levelpacks/original/level1.xml</levelfile>
+	<levelfile>/res/levelpacks/original/level2.xml</levelfile>
+	<levelfile>/res/levelpacks/original/level3.xml</levelfile>
+	<levelfile>/res/levelpacks/original/level4.xml</levelfile>
+	<levelfile>/res/levelpacks/original/level5.xml</levelfile>
+	<levelfile>/res/levelpacks/original/level6.xml</levelfile>
+	<levelfile>/res/levelpacks/original/level7.xml</levelfile>
+	<levelfile>/res/levelpacks/original/level8.xml</levelfile>
+	<levelfile>/res/levelpacks/original/level9.xml</levelfile>
+	<levelfile>/res/levelpacks/original/level10.xml</levelfile>
+	<levelfile>/res/levelpacks/original/level11.xml</levelfile>
+	<levelfile>/res/levelpacks/original/level12.xml</levelfile>
+</gamepack>

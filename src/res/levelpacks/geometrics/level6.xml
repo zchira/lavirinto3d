@@ -1,0 +1,54 @@
+<?xml version="1.0"?>
+<lavirinto>
+		<levelname>6. Grid</levelname>
+		<description> </description>
+		<time>150</time>
+		<backgroundimage>res/levelpacks/geometrics/6.jpg</backgroundimage>
+		<conectedfieldscolor>
+			<red>046</red>
+			<green>139</green>
+			<blue>239</blue>
+		</conectedfieldscolor>
+		<disconectedfieldscolor>
+			<red>150</red>
+			<green>150</green>
+			<blue>150</blue>
+		</disconectedfieldscolor>		
+		<width>18</width>
+		<height>18</height>
+		<boarddata>
+			010 010 000 000 010 000
+			110 111 110 011 111 110
+			000 000	010 010 000 010
+			
+			010 000 010 010 000 010
+			111 000 011 110 000 011
+			000 000	010 010 000 010
+			
+			010 010 010 010 010 010
+			110 111 011 011 111 110
+			000 000	000 000 000 000
+			
+			000 000 000 000 010 010
+			011 111 110 011 111 110
+			010 010	010 010 000 000
+			
+			010 000 010 010 000 010
+			110 000 011 111 000 011
+			010 000	010 000 000 010
+			
+			010 010 010 010 000 010
+			110 110 110 011 111 011
+			000 010	000 000 010 000				
+		</boarddata>
+		<player>
+			<x_cord>0</x_cord>
+			<y_cord>0</y_cord>
+		</player>
+		<monster>
+			<x_cord>5</x_cord>
+			<y_cord>5</y_cord>
+			<type>dummyCw</type>
+		</monster>		
+</lavirinto>
+

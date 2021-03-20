@@ -1,0 +1,42 @@
+<?xml version="1.0"?>
+<gamepack>
+	<packname>Lavirinto 3d campaign</packname>
+	<description>New abstract levels.</description>
+	
+	<startstory>Welcome.
+	In this voyage you'll
+	travel through the abstract world of
+	imagination. 
+	Be careful! Many dangers lurks on 
+	this path. 
+	Remember, your strength is in your wisdom.
+	Use it...
+	</startstory>
+	<endstory>CONGRATULATIONS!
+		Your pilgrimage is finished. 
+		You are now the Master of Lavirinto!
+		
+		Look for the new levelPacks on 
+		http://lavirinto3d.sourceforge.net		 
+	</endstory>			
+	<levelfile>/res/levelpacks/campaign/level1.xml</levelfile>
+	<levelfile>/res/levelpacks/campaign/level2.xml</levelfile>
+	<levelfile>/res/levelpacks/campaign/level3.xml</levelfile>
+	<levelfile>/res/levelpacks/campaign/level4.xml</levelfile>
+	<levelfile>/res/levelpacks/campaign/level5.xml</levelfile>
+	<levelfile>/res/levelpacks/campaign/level6.xml</levelfile>
+	<levelfile>/res/levelpacks/campaign/level7.xml</levelfile>
+	<levelfile>/res/levelpacks/campaign/level8.xml</levelfile>
+	<levelfile>/res/levelpacks/campaign/level9.xml</levelfile>
+	<levelfile>/res/levelpacks/campaign/level10.xml</levelfile>
+	<levelfile>/res/levelpacks/campaign/level11.xml</levelfile>
+	<levelfile>/res/levelpacks/campaign/level12.xml</levelfile>
+	<levelfile>/res/levelpacks/campaign/level13.xml</levelfile>
+	<levelfile>/res/levelpacks/campaign/level14.xml</levelfile>
+	<levelfile>/res/levelpacks/campaign/level15.xml</levelfile>
+	<levelfile>/res/levelpacks/campaign/level16.xml</levelfile>
+	<levelfile>/res/levelpacks/campaign/level17.xml</levelfile>
+	<levelfile>/res/levelpacks/campaign/level18.xml</levelfile>
+	<levelfile>/res/levelpacks/campaign/level19.xml</levelfile>
+	<levelfile>/res/levelpacks/campaign/level20.xml</levelfile>
+</gamepack>

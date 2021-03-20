@@ -1,0 +1,50 @@
+<?xml version="1.0"?>
+<lavirinto>
+		<levelname>3. Know your enemy!</levelname>
+		<description>Achieving the harmony is not easy.
+			You must keep yourself from many 
+			alluring things which are trying 
+			to seduce you.
+			Avoid them, they are predictable
+			and they will not bring you any wisdom.
+		</description>
+		<time>100</time>
+		<backgroundimage>res/levelpacks/tutorial/background.png</backgroundimage>
+		<conectedfieldscolor>
+			<red>0</red>
+			<green>143</green>
+			<blue>0</blue>
+		</conectedfieldscolor>
+		<disconectedfieldscolor>
+			<red>150</red>
+			<green>150</green>
+			<blue>150</blue>
+		</disconectedfieldscolor>
+		<width>12</width>
+		<height>12</height>
+		<boarddata>
+			010 010 010 010 
+			111 111 111 111 
+			010 010 010 010 
+			
+			010 010 010 010 
+			111 111 111 111 
+			000 010 010 010 
+
+			010 010 010 010 
+			111 011 111 111 
+			010 010 010 010 
+
+			000 010 010 010 
+			111 011 111 111 
+			010 010 010 010 
+		</boarddata>
+	<player>
+			<x_cord>0</x_cord>
+			<y_cord>0</y_cord>
+		</player>
+		<monster>
+			<x_cord>3</x_cord>
+			<y_cord>3</y_cord>
+		</monster>		
+</lavirinto>

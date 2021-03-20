@@ -1,0 +1,41 @@
+<?xml version="1.0"?>
+<lavirinto>
+		<levelname>1. Moving and rotating</levelname>
+		<description>Use arrow keys to move the ball.
+			Use ',' and '.' keys to rotate fields 
+			in different directions.
+			When you are ready, go to the most right
+			field and rotate it.
+		</description>
+		<time>100</time>
+		<backgroundimage>res/levelpacks/tutorial/background.png</backgroundimage>
+		<conectedfieldscolor>
+			<red>0</red>
+			<green>143</green>
+			<blue>0</blue>
+		</conectedfieldscolor>
+		<disconectedfieldscolor>
+			<red>150</red>
+			<green>150</green>
+			<blue>150</blue>
+		</disconectedfieldscolor>		
+		<width>9</width>
+		<height>9</height>
+		<boarddata>
+			010 010 010
+			111 110 111
+			010 010 010
+			
+			010 010 010
+			111 110 111
+			010 010 010
+			
+			010 010 010
+			111 110 111
+			010 010 010
+		</boarddata>
+		<player>
+			<x_cord>0</x_cord>
+			<y_cord>0</y_cord>
+		</player>
+</lavirinto>

@@ -1,0 +1,45 @@
+<?xml version="1.0"?>
+<lavirinto>
+		<levelname>6. level</levelname>
+		<description>Inside orange cube</description>
+		<time>300</time>
+		<backgroundimage>res/levelpacks/campaign/6.jpg</backgroundimage>
+		<conectedfieldscolor>
+			<red>255</red>
+			<green>240</green>
+			<blue>0</blue>
+		</conectedfieldscolor>
+		<disconectedfieldscolor>
+			<red>136</red>
+			<green>136</green>
+			<blue>136</blue>
+		</disconectedfieldscolor>				
+		<width>12</width>
+		<height>12</height>
+		<boarddata>
+ 010 000 000 000
+ 011 110 011 110
+ 010 010 010 010
+
+ 010 010 010 010
+ 011 110 010 111
+ 010 000 010 000
+
+ 010 000 010 010
+ 110 111 010 111
+ 000 000 010 010
+
+ 010 010 010 010
+ 110 110 110 010
+ 010 010 000 000
+		</boarddata>
+		<player>
+			<x_cord>1</x_cord>
+			<y_cord>0</y_cord>
+		</player>	
+		<monster>
+			<x_cord>3</x_cord>
+			<y_cord>0</y_cord>
+			<type>dummyCcw</type>
+		</monster>	
+</lavirinto>

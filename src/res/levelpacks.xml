@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<levekpacks>
+	<gamepack>
+		<name>Tutorial</name>
+		<file>/res/levelpacks/tutorialPack.xml</file>		
+	</gamepack>
+	<gamepack>
+		<name>Geometrics</name>
+		<file>/res/levelpacks/geometricsPack.xml</file>		
+	</gamepack>	
+	<gamepack>
+		<name>Campaign</name>
+		<file>/res/levelpacks/lavirinto3dPack.xml</file>		
+	</gamepack>
+
+	<gamepack>
+		<name>Bonus pack</name>
+		<file>/res/levelpacks/originalPack.xml</file>		
+	</gamepack>
+		
+</levekpacks>
