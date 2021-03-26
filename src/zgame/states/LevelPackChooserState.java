@@ -58,8 +58,9 @@ public class LevelPackChooserState extends AbstractMenuState {
 
 			GamePackReader levelPack = reader.getGamePack(selected);
 
-			StaticRenderTools.getFont512().drawString(0,
-					Integer.toString(levelPack.getLevelCount()), 430, 150);
+			String numOfLevels = levelPack.getLevelCount() == Integer.MAX_VALUE ? "unlimited" : Integer.toString(levelPack.getLevelCount());
+			
+			StaticRenderTools.getFont512().drawString(0, numOfLevels, 430, 150);
 
 			StaticRenderTools.getFont256().drawString(0,
 					levelPack.getPackDescription(), 310, 220);

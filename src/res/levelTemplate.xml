@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<lavirinto>
+		<levelname>LEVEL_NAME</levelname>
+		<description>DESCRIPTION</description>
+		<time>TIME</time>
+		<backgroundimage>BACKGROUND_IMAGE</backgroundimage>
+		<conectedfieldscolor>
+			<red>RED1</red>
+			<green>GREEN1</green>
+			<blue>BLUE1</blue>
+		</conectedfieldscolor>
+		<disconectedfieldscolor>
+			<red>RED2</red>
+			<green>GREEN2</green>
+			<blue>BLUE2</blue>
+		</disconectedfieldscolor>		
+		<width>WIDTH</width>
+		<height>HEIGHT</height>
+		<boarddata>
+		BOARD_DATA
+		</boarddata>
+		<player>
+			<x_cord>PLAYER_X_COORD</x_cord>
+			<y_cord>PLAYER_Y_COORD</y_cord>
+		</player>
+		<!-- <monster>
+			<x_cord>3</x_cord>
+			<y_cord>3</y_cord>
+		</monster> -->		
+</lavirinto>

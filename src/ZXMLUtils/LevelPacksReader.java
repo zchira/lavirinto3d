@@ -16,7 +16,7 @@ public class LevelPacksReader extends ZReader {
 	
 	
 	public LevelPacksReader(String fileName) {
-		super(fileName);		
+		super(fileName, true);		
 	}
 	
 	public int getGamePacksCount() 

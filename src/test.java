@@ -1,6 +1,5 @@
 import levelgenerator.LevelGenerator;
 
-
 public class test {
 
 	/**
@@ -8,24 +7,26 @@ public class test {
 	 */
 	public static void main(String[] args) {
 		// Test settings
-		
+
 		LevelGenerator lg = new LevelGenerator(8, 2, 124, 15);
 		lg.print();
 		lg.printMatrix();
+		
 		System.out.println("----------------");
-		
-		LevelGenerator lg2 = new LevelGenerator(30, 10, 4353, 270);
-		//lg2.print();
-		lg2.printMatrix();
-		
-		/*ZSettings settings = ZSettings.getSettings();
-		System.out.println(settings.toString());
-		ZSettings.saveSettings(false, false, DisplayModes._800X600, 5, 6);
-		settings = ZSettings.getSettings();
-		System.out.println(settings.toString());*/
-		
-		
-		
+
+		String level = lg.getLevelXml();
+		System.out.println(level);
+
+
+		/*
+		 * ZSettings settings = ZSettings.getSettings();
+		 * System.out.println(settings.toString()); ZSettings.saveSettings(false, false,
+		 * DisplayModes._800X600, 5, 6); settings = ZSettings.getSettings();
+		 * System.out.println(settings.toString());
+		 */
+
+
+
 		// Test scores
 //		PlayerInfo pi = ManageStatistics.addPlayer("Player 1");
 //		ManageStatistics.addPlayerResults(pi.getPlayerId(), "pack1", 2, 100);
@@ -57,7 +58,7 @@ public class test {
 //		for (PlayerInfo r : aresaults) {
 //			System.out.println(r.getName() + " " + r.getPlayerId() + " active ");
 //		}
-		
+
 	}
 
 }

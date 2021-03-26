@@ -1,0 +1,24 @@
+<?xml version="1.0"?>
+<gamepack>
+	<packname>Endless</packname>
+	<description>Pseudo-random generated levels.</description>
+	
+	<startstory>
+		Unlimited levels. No end.
+		You are so tiny and meaningless...
+		Like tears in the rain.
+		You may have some small victories,
+		but at the end you can't win.
+		You'll die.
+		Or abandon the game (which is the same).
+		It is like in the real life.
+		There is no heaven.
+		But it may be fun.
+		So, cheers :)		
+	</startstory>
+	<endstory>
+	</endstory>
+	
+	<mode>endless</mode>
+	<levelfile></levelfile>
+</gamepack>

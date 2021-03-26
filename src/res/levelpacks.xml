@@ -18,4 +18,8 @@
 		<file>/res/levelpacks/originalPack.xml</file>		
 	</gamepack>
 		
+	<gamepack>
+		<name>Endless</name>
+		<file>/res/levelpacks/endlessPack.xml</file>		
+	</gamepack>
 </levekpacks>

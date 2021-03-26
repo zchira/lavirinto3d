@@ -6,6 +6,11 @@ import java.util.List;
 import java.util.Random;
 
 class Path extends ArrayList<Integer> {
+
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = -1945857624825739849L;
 }
 
 /**
@@ -50,8 +55,8 @@ public class LevelGenerator {
 		paths.add(currentPath);
 		stackPointer = 0;
 		generate(start);
-		printMatrix();
 		mix();
+		// printMatrix();
 	}
 
 	public void print() {
@@ -63,11 +68,33 @@ public class LevelGenerator {
 		}
 	}
 
+	private String getMatrixData() {
+		String toRet = "";
+
+		for (int y = 0; y < h * 3; y++) {
+			if (y % 3 == 0)
+				toRet += System.lineSeparator();
+
+			for (int x = 0; x < w * 3; x++) {
+				if (x % 3 == 0)
+					toRet += " ";
+
+				int val = matrix[x][y];
+				String c = val == 0 ? "0" : "1";
+
+				toRet += c;
+
+			}
+			toRet += System.lineSeparator();
+		}
+
+		return toRet;
+	}
+
 	public void printMatrix() {
 		int sx = getX(start) * 3 + 1;
 		int sy = getY(start) * 3 + 1;
-		
-		
+
 		for (int y = 0; y < h * 3; y++) {
 			// if (y % 3 == 0)
 			// System.out.println();
@@ -121,7 +148,6 @@ public class LevelGenerator {
 
 	private void mix() {
 		for (Path currentPath : paths) {
-			//currentPath = paths.get(paths.size() - 1);
 			int pathPointer = currentPath.size() - 1;
 			while (pathPointer > 0) {
 				int currentId = currentPath.get(pathPointer);
@@ -166,10 +192,6 @@ public class LevelGenerator {
 		return false;
 	}
 
-	private void addRandomConnections(int currentId) {
-		// TODO Auto-generated method stub
-
-	}
 
 	private void connectFields(int currentId, int nextId) {
 		int x1 = getX(currentId) * 3 + 1;
@@ -293,8 +315,6 @@ public class LevelGenerator {
 	}
 
 	private List<Integer> getAllNeighbours(int fieldId) {
-		int x = getX(fieldId);
-		int y = getY(fieldId);
 		List<Integer> arr = new ArrayList<Integer>();
 
 		int id = getUpId(fieldId);
@@ -315,5 +335,40 @@ public class LevelGenerator {
 
 		return arr;
 
+	}
+
+	public String getLevelXml() {
+		TemplateReader tr = new TemplateReader();
+		String levelTemplate = tr.getTemplateTemplateReader();
+		System.out.println(levelTemplate);
+
+		levelTemplate = levelTemplate.replaceFirst("LEVEL_NAME",
+				"Random level: " + this.w + "," + this.h + "," + this.seed);
+		levelTemplate = levelTemplate.replaceFirst("DESCRIPTION", System.lineSeparator() 
+				+ "Randomly generated level with params:"
+				+ System.lineSeparator() + "width: " +this.w
+				+ System.lineSeparator() + "height: " + this.h
+				+ System.lineSeparator() + "seed: " + this.seed);
+
+		levelTemplate = levelTemplate.replaceFirst("TIME", "300");
+		levelTemplate = levelTemplate.replaceFirst("BACKGROUND_IMAGE", "res/levelpacks/tutorial/background.png");
+
+		levelTemplate = levelTemplate.replaceFirst("RED1", "0");
+		levelTemplate = levelTemplate.replaceFirst("GREEN1", "30");
+		levelTemplate = levelTemplate.replaceFirst("BLUE1", "255");
+
+		levelTemplate = levelTemplate.replaceFirst("RED2", "100");
+		levelTemplate = levelTemplate.replaceFirst("GREEN2", "100");
+		levelTemplate = levelTemplate.replaceFirst("BLUE2", "100");
+
+		levelTemplate = levelTemplate.replaceFirst("WIDTH", "" + (w * 3));
+		levelTemplate = levelTemplate.replaceFirst("HEIGHT", "" + (h * 3));
+
+		levelTemplate = levelTemplate.replaceFirst("BOARD_DATA", this.getMatrixData());
+
+		levelTemplate = levelTemplate.replaceFirst("PLAYER_X_COORD", "" + getX(start));
+		levelTemplate = levelTemplate.replaceFirst("PLAYER_Y_COORD", "" + getY(start));
+
+		return levelTemplate;
 	}
 }
