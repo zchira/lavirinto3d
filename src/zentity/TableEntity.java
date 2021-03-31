@@ -50,7 +50,7 @@ public class TableEntity extends AbstractEntity implements SpriteListener,
 
 	private long startTraversingTime;
 
-	private long traversingTimePause = 50;
+	private long traversingTimePause = 30; //50;
 
 	/**
 	 * number of all non-empty fields

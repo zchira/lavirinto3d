@@ -40,6 +40,11 @@ public class LevelGenerator {
 	Path currentPath;
 	int stackPointer = -1;
 
+	public LevelGenerator(int level, long seed) {
+		// TODO
+		// based on level generate w,h, maxfields, num of monsters, etc...
+	}
+	
 	public LevelGenerator(int w, int h, long seed, int maxFields) {
 		this.w = w;
 		this.h = h;
@@ -56,7 +61,7 @@ public class LevelGenerator {
 		stackPointer = 0;
 		generate(start);
 		mix();
-		// printMatrix();
+		printMatrix();
 	}
 
 	public void print() {
@@ -148,6 +153,7 @@ public class LevelGenerator {
 
 	private void mix() {
 		for (Path currentPath : paths) {
+			// currentPath = paths.get(paths.size() - 1);
 			int pathPointer = currentPath.size() - 1;
 			while (pathPointer > 0) {
 				int currentId = currentPath.get(pathPointer);
@@ -192,6 +198,10 @@ public class LevelGenerator {
 		return false;
 	}
 
+//	private void addRandomConnections(int currentId) {
+//		// TODO Auto-generated method stub
+//
+//	}
 
 	private void connectFields(int currentId, int nextId) {
 		int x1 = getX(currentId) * 3 + 1;
@@ -353,13 +363,14 @@ public class LevelGenerator {
 		levelTemplate = levelTemplate.replaceFirst("TIME", "300");
 		levelTemplate = levelTemplate.replaceFirst("BACKGROUND_IMAGE", "res/levelpacks/tutorial/background.png");
 
-		levelTemplate = levelTemplate.replaceFirst("RED1", "0");
-		levelTemplate = levelTemplate.replaceFirst("GREEN1", "30");
-		levelTemplate = levelTemplate.replaceFirst("BLUE1", "255");
+		
+		levelTemplate = levelTemplate.replaceFirst("RED1", "" + this.rnd.nextInt(256));
+		levelTemplate = levelTemplate.replaceFirst("GREEN1", "" + this.rnd.nextInt(256));
+		levelTemplate = levelTemplate.replaceFirst("BLUE1", "" + this.rnd.nextInt(256));
 
-		levelTemplate = levelTemplate.replaceFirst("RED2", "100");
-		levelTemplate = levelTemplate.replaceFirst("GREEN2", "100");
-		levelTemplate = levelTemplate.replaceFirst("BLUE2", "100");
+		levelTemplate = levelTemplate.replaceFirst("RED2", "" + this.rnd.nextInt(256));
+		levelTemplate = levelTemplate.replaceFirst("GREEN2", "" + this.rnd.nextInt(256));
+		levelTemplate = levelTemplate.replaceFirst("BLUE2", "" + this.rnd.nextInt(256));
 
 		levelTemplate = levelTemplate.replaceFirst("WIDTH", "" + (w * 3));
 		levelTemplate = levelTemplate.replaceFirst("HEIGHT", "" + (h * 3));
